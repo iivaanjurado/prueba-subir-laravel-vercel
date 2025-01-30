@@ -5,7 +5,7 @@
         "api/index.php": {
             "runtime": "vercel-php@0.6.1",
             "config": {
-                "phpVersion": "8.2"  // Establece PHP a la versión 8.2
+                "phpVersion": "8.2" 
             }
         }
     },
