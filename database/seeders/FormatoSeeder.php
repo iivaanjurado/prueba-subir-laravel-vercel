@@ -14,9 +14,9 @@ class FormatoSeeder extends Seeder
     public function run(): void
     {
         Formato::insert([
-            ['nombre' => 'Fresco', 'codigo' => ' '],
-            ['nombre' => 'Formol', 'codigo' => ' '],
-            ['nombre' => 'Etanol 70%', 'codigo' => ' ']
+            ['nombre' => 'Fresco'],
+            ['nombre' => 'Formol'],
+            ['nombre' => 'Etanol 70%']
         ]);
     }
 }

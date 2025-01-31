@@ -14,10 +14,16 @@ class NaturalezaSeeder extends Seeder
     public function run(): void
     {
         Naturaleza::insert([
-            ['nombre' => 'Biopsia', 'codigo' => ' '],
-            ['nombre' => 'Esputo', 'codigo' => ' '],
-            ['nombre' => 'Citologia Bucal', 'codigo' => ' '],
-            ['nombre' => 'Muestra de Sangre', 'codigo' => ' '],
+            ['nombre' => 'Biopsia', 'codigo' => 'B'],
+            ['nombre' => 'Biopsias veterinarias', 'codigo' => 'BV'],
+            ['nombre' => 'Cavidad bucal', 'codigo' => 'CB'],
+            ['nombre' => 'Citología vaginal', 'codigo' => 'CV'],
+            ['nombre' => 'Extensión sanguínea', 'codigo' => 'EX'],
+            ['nombre' => 'Orinas', 'codigo' => 'O'],
+            ['nombre' => 'Esputos', 'codigo' => 'E'],
+            ['nombre' => 'Semen', 'codigo' => 'ES'],
+            ['nombre' => 'Improntas', 'codigo' => 'I'],
+            ['nombre' => 'Frotis', 'codigo' => 'F'],
         ]);
     }
 }

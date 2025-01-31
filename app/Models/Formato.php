@@ -12,7 +12,7 @@ class Formato extends Model
     protected $table = 'formato';
     protected $primaryKey = 'id';
 
-    protected $fillable = ['nombre', 'codigo'];
+    protected $fillable = ['nombre'];
 
     protected $hidden = ['created_at', 'updated_at'];
 
